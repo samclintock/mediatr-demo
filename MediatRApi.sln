@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatRApi", "MediatRApi\MediatRApi.csproj", "{F95C5074-16C0-4699-84D7-93265A132C95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatRApi.Repositories", "MediatRApi.Repositories\MediatRApi.Repositories.csproj", "{BE35723C-10F8-407D-AC0B-BAEAC0D1E72D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatRApi.Services", "MediatRApi.Services\MediatRApi.Services.csproj", "{0132BA51-7F25-4027-BB6D-3CAB8AFB60BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatRApi.Handlers", "MediatRApi.Handlers\MediatRApi.Handlers.csproj", "{6640B421-A55B-450D-A327-FD6BC3E18BA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F95C5074-16C0-4699-84D7-93265A132C95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F95C5074-16C0-4699-84D7-93265A132C95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F95C5074-16C0-4699-84D7-93265A132C95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F95C5074-16C0-4699-84D7-93265A132C95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE35723C-10F8-407D-AC0B-BAEAC0D1E72D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE35723C-10F8-407D-AC0B-BAEAC0D1E72D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE35723C-10F8-407D-AC0B-BAEAC0D1E72D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE35723C-10F8-407D-AC0B-BAEAC0D1E72D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0132BA51-7F25-4027-BB6D-3CAB8AFB60BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0132BA51-7F25-4027-BB6D-3CAB8AFB60BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0132BA51-7F25-4027-BB6D-3CAB8AFB60BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0132BA51-7F25-4027-BB6D-3CAB8AFB60BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6640B421-A55B-450D-A327-FD6BC3E18BA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6640B421-A55B-450D-A327-FD6BC3E18BA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6640B421-A55B-450D-A327-FD6BC3E18BA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6640B421-A55B-450D-A327-FD6BC3E18BA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {63D96369-DE96-4005-B653-3CACCD6D3A0B}
+	EndGlobalSection
+EndGlobal

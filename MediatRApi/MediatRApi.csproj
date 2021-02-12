@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="9.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MediatRApi.Handlers\MediatRApi.Handlers.csproj" />
+    <ProjectReference Include="..\MediatRApi.Repositories\MediatRApi.Repositories.csproj" />
+    <ProjectReference Include="..\MediatRApi.Services\MediatRApi.Services.csproj" />
+  </ItemGroup>
+
+</Project>
